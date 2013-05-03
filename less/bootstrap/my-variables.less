@@ -1,0 +1,120 @@
+
+/*-----------My Variables-----------*/
+	/*Zone colors*/
+@zoneColorBlue:			rgba(114, 142, 156, 0.25);
+@zoneColorBlue-50:			rgba(112, 140, 154, 0.50);
+@zoneColorBlue-75:			rgba(112, 140, 154, 0.75);
+@zoneColorBlue-25:			rgba(112, 140, 154, 0.25);
+
+@zoneColorGreen:			rgba(156, 183, 143, 1);
+@zoneColorGreen-75:			rgba(156, 183, 143, 0.75);
+@zoneColorGreen-50:			rgba(156, 183, 143, 0.50);
+@zoneColorGreen-25:			rgba(156, 183, 143, 0.25);
+
+@zoneColorRed:			rgba(214, 110, 81, 1);
+@zoneColorRed-75:			rgba(214, 110, 81, 0.75);
+@zoneColorRed-50:			rgba(214, 110, 81, 0.50);
+@zoneColorRed-25:			rgba(214, 110, 81, 0.25);
+
+@zoneColorWhite:			rgba(256, 256, 256, 1);
+@zoneColorWhite-75:			rgba(256, 256, 256, 0.75);
+@zoneColorWhite-50:			rgba(256, 256, 256, 0.50);
+@zoneColorWhite-25:			rgba(256, 256, 256, 0.75);
+
+@zoneColorBlack-75:			rgba(0, 0, 0, 0.75);
+
+/*-----Box-shadows-----------/
+
+
+/*----Text-shadow-----*/
+.tShadow-LowliteOmni1 {
+  text-shadow: 0px 0px 2px darken(@blue, 35%);
+}
+
+.tShadow-HiliteTop {
+  text-shadow: 0px -1px 0px lighten(@blue, 35%);
+}
+.tShadow-LowliteTop {
+  text-shadow: 0px -1px 0px darken(@blue, 35%);
+}
+.tShadow-HiliteTop-LowliteBottom {
+  text-shadow: 0px -1px 0px lighten(@blue, 35%), 0px 1px 0px darken(@blue, 35%);
+}
+.tShadow-HiliteBottom {
+  text-shadow: 0px 1px 0px lighten(@blue, 35%);
+}
+.tShadow-LowliteBottom {
+  text-shadow: 0px 1px 0px darken(@blue, 35%);
+}
+.tShadow-LowliteBottom2 {
+  text-shadow: 0px 2px 0px darken(@blue, 35%);
+}
+.tShadow-HiliteBottom-LowliteTop {
+  text-shadow: 0px 1px 0px lighten(@blue, 35%), 0px -1px 0px darken(@blue, 35%);
+}
+
+/*Diagonal*/
+.tShadow-HiliteTop-Diagonal {
+  text-shadow: -1px -1px 0px lighten(@blue, 35%);
+}
+.tShadow-LowLiteTop-Diagonal {
+  text-shadow: -1px -1px 0px darken(@blue, 35%);
+}
+.tShadow-LowLiteTop-Diagonalx2 {
+  text-shadow: -2px -2px 0px darken(@blue, 35%);
+}
+.tShadow-LowLiteTop-Diagonalx4 {
+  text-shadow: -4px -4px 0px darken(@blue, 35%);
+}
+.tShadow-HiliteTop-LowliteBottom-Diagonal {
+  text-shadow: -1px -1px 0px lighten(@blue, 35%), 1px 1px 0px darken(@blue, 35%);
+}
+.tShadow-HiliteBottom-Diagonal {
+  text-shadow: 1px 1px 0px lighten(@blue, 35%);
+}
+.tShadow-HiliteBottom-Diagonal-Lighter {
+  text-shadow: 1px 1px 0px lighten(@blue, 55%);
+}
+.tShadow-LowliteBottom-Diagonal {
+  text-shadow: 1px 1px 0px darken(@blue, 35%);
+}
+.tShadow-LowliteBottom-Diagonal-left {
+  text-shadow: -1px 1px 0px darken(@blue, 35%);
+}
+.tShadow-LowliteBottom-Diagonalx2 {
+  text-shadow: 2px 2px 0px darken(@blue, 35%);
+}
+.tShadow-LowliteBottom-Diagonalx4 {
+  text-shadow: 4px 4px 0px darken(@blue, 35%);
+}
+.tShadow-LowliteBottom-Diagonalx4-left {
+  text-shadow: -4px 4px 0px darken(@blue, 35%);
+}
+.tShadow-HiliteBottom-LowliteTop-Diagonal {
+  text-shadow: 1px 1px 0px lighten(@blue, 35%), -1px -1px 0px darken(@blue, 35%);
+}
+/*White tShadow*/
+
+
+
+	/*transitions*/
+.regTrans(@regTrans: 1s ease-in){
+  -webkit-transition: @regTrans;
+  -moz-transition: @regTrans;
+  -o-transition: @regTrans;
+  transition: @regTrans;}
+.hoverLinkTrans(@hoverLinkTrans: .4s ease-in-out){
+	-webkit-transition: @hoverLinkTrans;
+  -moz-transition: @hoverLinkTrans;
+  -o-transition: @hoverLinkTrans;
+  transition: @hoverLinkTrans;
+}
+.clickLinkTrans(@hoverLinkTrans: .6s ease-out){
+	-webkit-transition: @hoverLinkTrans;
+  -moz-transition: @hoverLinkTrans;
+  -o-transition: @hoverLinkTrans;
+  transition: @hoverLinkTrans;
+}
+/*-----------Fonts-----------------*/
+
+
