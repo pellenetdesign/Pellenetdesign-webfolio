@@ -392,9 +392,8 @@
                                 <p class="icons">
                                     <a class="pull-right" href="#" title="Read More">&#xf055;</a>
                                 </p>
-                                <div class="clearfix"></div>
                                 <div class="row-fluid">
-                                    <ul class="span10 offset1 unstyled tags">
+                                    <ul class="span10 offset1 unstyled tags clearfix">
                                         <li class="pull-left"><a href="#" title="Read posts by tag">Tag</a></li>
                                         <li class="pull-left"><a href="#" title="Read posts by tag">Tags</a></li>
                                         <li class="pull-left"><a href="#" title="Read posts by tag">Tagged</a></li>
@@ -410,9 +409,8 @@
                                 <p class="icons">
                                     <a class="pull-right" href="#" title="Read More">&#xf055;</a>
                                 </p>
-                                <div class="clearfix"></div>
                                 <div class="row-fluid">
-                                    <ul class="span10 offset1 unstyled tags ">
+                                    <ul class="span10 offset1 unstyled tags clearfix">
                                         <li class="pull-left"><a href="#" title="Read posts by tag">Tag</a></li>
                                         <li class="pull-left"><a href="#" title="Read posts by tag">Tags</a></li>
                                         <li class="pull-left"><a href="#" title="Read posts by tag">Tagged</a></li>
@@ -428,9 +426,8 @@
                                 <p class="icons">
                                     <a class="pull-right" href="#" title="Read More">&#xf055;</a>
                                 </p>
-                                <div class="clearfix"></div>
                                 <div class="row-fluid">
-                                    <ul class="span10 offset1 unstyled tags ">
+                                    <ul class="span10 offset1 unstyled tags clearfix">
                                         <li class="pull-left"><a href="#" title="Read posts by tag">Tag</a></li>
                                         <li class="pull-left"><a href="#" title="Read posts by tag">Tags</a></li>
                                         <li class="pull-left"><a href="#" title="Read posts by tag">Tagged</a></li>
@@ -703,7 +700,7 @@
                             </div><!--socialMeWrap-->
                         </nav><!--end nav span3-->
                     </div><!--end row fluid-->
-                    <div class="pinterest clearfix row-fluid">
+                    <div class="pinterest clearfix row-fluid visible-desktop">
                         <div class="span12">
                             <span style="width:90%;margin:0 5%;overflow:hidden;">
                             <a data-pin-do="embedUser" href="http://pinterest.com/pellehelin/" data-pin-scale-width="80" data-pin-scale-height="150"></a>
