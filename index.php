@@ -51,6 +51,9 @@
         <![endif]-->      
         
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<!--[if lt IE 9]>
+            <link rel="stylesheet" type="text/css" href="css/iefix.css" />
+        <![endif]-->
 		<script src="js/packages/cssfx.min.js"></script> 
         <!--[if lt IE 8]>
           <script src="less/bootstrap/font-awesome-ie7.less"></script>
@@ -156,7 +159,7 @@
         <aside class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.
         </aside>--><!--<![endif]-->
         <header role="banner" class="row-fluid">
-            <div role="img" class="span1">
+            <div role="img" class="span1 hidden-phone">
                 <a href="#" title="Logo Home">
                     <img src="img/icons/logo1024.png" class="visible-desktop" alt="Logotype Desktop">
                     <img src="img/icons/logoTablet.png" class="visible-tablet" alt="Logotype Tablet">
@@ -207,7 +210,7 @@
         </div>  <!--end navbar-->
         </header>
         <section id="main">
-            <article class="row-fluid"  role="main">
+            <article class="row-fluid hidden-phone"  role="main">
                 <div id="mainCarousel" class="span8 mainCarousel slide ttTop">
                     <!-- Carousel items -->
                     <div class="carousel-inner">
@@ -381,7 +384,7 @@
                 </div><!--end carousel Newsfeed-->
             </div><!--end span4 hidden-phone-->
             </article>
-            <article class="row-fluid">
+            <article class="row-fluid hidden-phone">
                 <div id="showcase" class="span8">
                     <ul class="thumbnails">
                     <li class="span4">
@@ -677,15 +680,22 @@
                     <div class="span6">
                     <div class="row-fluid">
                         <nav class="span6">
-                        <div class="footerTitle"><span class="icon-phone"></span> Call me</div>
-                            <ul class="unstyled ttTop callme">
-                                <li><div class="icon-phone-sign"></div> <a class="pull-right" href="skype:Pellenetdesign?call" title="Call Me!">06.72.68.75.31</a></li>
-                                <li><div class="icon-comment"></div> <a class="pull-right" href="skype:Pellenetdesign?call" title="Skype Me!">Skype Me!</a></li>
-                                <li><div class="icon-comments-alt"></div> <a class="pull-right" href="#" title="Live chat via Google Talk">Chat LIVE!</a></li>
+                       <div class="footerTitlesub"> <!--<span class="icon-phone"></span> Call me--></div>
+                       <div class="row-fluid">
+                       		<ul class="unstyled ttTop callme span6">                        	
+								<li>
+									<a href="#" title="Scan Me!"><img title="Scan me!" src="img/icons/qr_meCard.png" alt="Qr code"></a>
+								</li>
+							</ul>
+                            <ul class="unstyled ttTop callme span6">
+                                <li><a href="skype:Pellenetdesign?call" title="Call Me!">06.72.68.75.31</a></li>
+                                <li><a href="skype:Pellenetdesign?call" title="Skype Me!">Skype Me!</a></li>
+                                <li><a href="http://www.google.com/hangouts" title="Live chat via Google Talk">Chat LIVE!</a></li>
                             </ul>
+						</div>
                         </nav><!--end nav span3-->
                         <nav class="span6">
-                            <div class="footerTitle"><span class="icon-bullhorn"></span> Holler!</div>
+                            <div class="footerTitlesub"><!--<span class="icon-bullhorn"></span> Holler!--></div>
                             <div id="socialMeWrap">
                                 <ul class="unstyled icons row-fluid socialme">
                                     <li class="span4"><a href="https://plus.google.com/u/0/116184257452506507653/posts?tab=XX">&#xf0d4;</a></li>
@@ -710,7 +720,7 @@
                 </div><!--end span6-->
             </div><!--end row fluid-->
         </footer>
-          <div role="note" class="row-fluid"><!--footer credits-->
+          <div role="note" class="row-fluid credits clearfix"><!--footer credits-->
                 <div class="span6">
                     <div class="pull-left">&copy; Jarl HELIN</div>
                 </div>
