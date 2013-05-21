@@ -1,5 +1,5 @@
 /*
-@media screen and (max-width: 797px) and (max-width: 520px), (min-width: 1151px) {
+@media screen and (max-width: 797px)  {
   }*/
 /*--------Overrides Mixins---------*/
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
@@ -61,7 +61,6 @@ a{.hoverLinkTrans;
 	}
 tbody{width:100%;}
 div.shell{
-	max-width:1220px;
 }
 /*------------Navbar------------------*/
 body{background:url(../img/backgrounds/bg_white_striped.png) repeat;
@@ -304,6 +303,27 @@ ul.newsfeed-buttons{position:absolute;bottom:40px;width:100%;margin:0;
 		a{font-size:150%;.tShadow-HiliteBottom;}
 	}
 }
+
+@media screen and (min-width: 1200px) {
+	div.shell{
+		margin:0 5%;
+	}
+}
+@media screen and (min-width: 1400px) {
+	div.shell{
+		margin:0 10%;
+	}
+}
+@media screen and (min-width: 1600px) {
+	div.shell{
+		margin:0 15%;
+	}
+}
+@media screen and (min-width: 1800px) {
+	div.shell{
+		margin:0 20%;
+	}
+}
 @media screen and (max-width: 979px) {
 	article{
 		div#mainCarousel.span8, div#showcase.span8 {width:100%;}
@@ -390,11 +410,23 @@ ul.newsfeed-buttons{position:absolute;bottom:40px;width:100%;margin:0;
 
 @media screen and (max-width: 640px) {
 	header{
-		ul#mainNav{
-			li{
-				a{}
+		div.navbar.span11{width:100%;*width:99.94680851063829%;float:none;
+			div.navbar-inner{padding-left:0;padding-right:0;
+				ul.nav.connect{float:left;}
 			}
 		}
+	}/*end header*/
+	footer{
+		ul.callme.span6{
+			li{
+				a{font-size:125%;line-height:185%;}
+			}
+		}
+	}/*footer*/
+  }/*end @media*/
+
+@media screen and (max-width: 480px) {
+	header{
 		div.navbar.span11{width:100%;*width:99.94680851063829%;float:none;
 			div.navbar-inner{padding-left:0;padding-right:0;
 				ul.nav.connect{float:left;}

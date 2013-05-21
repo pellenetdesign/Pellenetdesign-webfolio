@@ -174,7 +174,7 @@
                         <li><a href="#">Resume</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
-                    <ul class="nav connect">
+                    <ul class="nav connect hidden-phone">
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             Connect
