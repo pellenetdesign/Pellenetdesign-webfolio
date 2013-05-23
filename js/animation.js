@@ -16,22 +16,18 @@ $(document).ready(function(){
 	$('.ttBottom a').tooltip({placement:'bottom', animation:'fade'});
 	$('.ttLeft a').tooltip({placement:'left', animation:'fade'});
 	$('.ttRight a').tooltip({placement:'right', animation:'fade'});
-	//animate "For hire"
-	$('body').hover(function(){
-    var hireme = $("p.hire-me a img");
-		hireme.animate({opacity:0.5},"100");
-		hireme.animate({marginLeft:1},"100");
-		hireme.animate({opacity:0.5},"100");
-		hireme.animate({marginLeft:1},"100");
-		hireme.animate({opacity:0.5},"100");
-		hireme.animate({marginLeft:1},"100");
-		hireme.animate({opacity:0.5},"100");
-		hireme.animate({marginLeft:1},"100");
-		hireme.animate({opacity:0.5},"100");
-		hireme.animate({marginLeft:1},"100");
-		hireme.animate({opacity:0.5},"100");
-		hireme.animate({marginLeft:1},"100");
-  });
-  //affix the top of page
-  /*$('#navbar').affix()*/
+	//popover click
+	$('.poTop').popover({placement:'top', animation:'fade'});
+	$('.poBottom').popover({placement:'bottom', animation:'fade'});
+	$('.poLeft').popover({placement:'left', animation:'fade'});
+	$('.poRight').popover({placement:'right', animation:'fade'});
+	//popover hover
+	$('.poTopHover').popover({placement:'top', trigger:'hover', animation:'fade'});
+	$('.poBottomHover').popover({placement:'bottom', trigger:'hover', animation:'fade'});
+	$('.poLeftHover').popover({placement:'left', trigger:'hover', animation:'fade'});
+	$('.poRightHover').popover({placement:'right', trigger:'hover', animation:'fade'});
+	//popover personalized
+	//top Right navbar
+	$('.poBottomHoverForhire').popover({placement:'bottom', trigger:'hover', animation:'fade', title:'Available for hire and ready to roll', content:'I am a fully-fledged webdesigner looking for a new agency to better my team-working skills and to share my webbly know-how.. Interested??, well then click on the bubble to check out my latest resume to this date'});
+	//,  
 });//end doc ready

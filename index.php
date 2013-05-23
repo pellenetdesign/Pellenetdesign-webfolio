@@ -139,7 +139,7 @@
                                             
                                             ?>
                     </li>
-                    <li class="span4">
+                    <li class="span4 ttBottom">
                         <div class="icon-user"></div>
                         Hello <a href="#" title="Login">Guest</a>
                     </li>
@@ -161,8 +161,7 @@
         <header role="banner" class="row-fluid">
             <div role="img" class="span1 hidden-phone">
                 <a href="#" title="Logo Home">
-                    <img src="img/icons/logo1024.png" class="visible-desktop" alt="Logotype Desktop">
-                    <img src="img/icons/logoTablet.png" class="visible-tablet" alt="Logotype Tablet">
+                    <img src="img/icons/logo1024.png" class="hidden-phone" alt="Logotype Desktop">
                 </a>
             </div>
         <div class="navbar span11">
@@ -172,9 +171,8 @@
                         <li class="active"><a class="active" href="#">Home</a></li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Resume</a></li>
-                        <li><a href="#">Contact</a></li>
                     </ul>
-                    <ul class="nav connect hidden-phone">
+                    <ul class="nav connect">
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             Connect
@@ -202,9 +200,12 @@
                             </ul>
                         </li>
                     </ul><!--end nav dropdown-->
-                    <form class="navbar-search pull-right visible-desktop">  
-                        <input type="text" class="search-query" placeholder="Search"> 
-                    </form>  
+                    <div id="lookforjob" class="pull-right poBottomHoverForhire">
+                    	<a href="#">
+                        	<h4 class="alert alert-info pull-left">Hey there!</h4>
+                        	<img class="pull-right" src="img/photos/misc/poseAlert.png" alt="Alert!">
+                        </a>
+                    </div>
                 </div><!--end row-->
             </div>
         </div>  <!--end navbar-->
@@ -618,42 +619,30 @@
                             <fieldset>
                                 <legend><span class="icon-circle-arrow-right"></span> Send me a message</legend>
                                     <div class="control-group">
-                                        <label class="control-label">Name*</label>
+                                        <label class="control-label hidden-phone">Name*</label>
                                         <div class="controls">
                                             <input class="input-medium" type="text" placeholder="Please type you name">
                                         </div>
                                     </div>
                                     <div class="control-group">
-                                        <label class="control-label">Email*</label>
+                                        <label class="control-label hidden-phone">Email*</label>
                                         <div class="controls">
                                             <input class="input-medium" type="text" placeholder="Email?">
                                         </div>
                                     </div>
                                     <div class="control-group">
-                                        <label class="control-label">Subject</label>
+                                        <label class="control-label hidden-phone">Subject</label>
                                         <div class="controls">
                                             <input class="input-large" type="text" placeholder="Subject?">
                                         </div>
                                     </div>
                                     <div class="control-group">
-                                        <label class="control-label">Message*</label>
+                                        <label class="control-label hidden-phone">Message*</label>
                                         <div class="controls">
                                             <textarea rows="6" class="input-large" placeholder="Message-ahoy!"></textarea>
                                         </div>
                                     </div>
-                                    <!-- <div class="control-group">
-                                        <div class="controls">
-                                            <label class="checkbox">
-                                                <input type="checkbox"><span class="label label-important">It's Urgent!</span>
-                                            </label>
-                                            <label class="checkbox">
-                                                <input type="checkbox"><span class="label label-success">It can wait a few days</span>
-                                            </label>
-                                             <label class="checkbox">
-                                                <input type="checkbox"><span class="label label-info">Oh, just checking if you are awake..</span>
-                                            </label>
-                                        </div>-->
-                                        <div class="control-group">
+                                        <div class="control-group captcha">
                                                  <label class="control-label">Captcha (14FDG0)</label>
                                                  <div class="controls">
                                                     <div class="input-append">
@@ -678,42 +667,42 @@
                         </form>
                     </div><!--end div span 6-->
                     <div class="span6">
-                    <div class="row-fluid">
-                        <nav class="span6">
-                       <div class="footerTitlesub"> <!--<span class="icon-phone"></span> Call me--></div>
-                       <div class="row-fluid">
-                       		<ul class="unstyled ttTop callme span6">                        	
-								<li>
-									<a href="#" title="Scan Me!"><img title="Scan me!" src="img/icons/qr_meCard.png" alt="Qr code"></a>
-								</li>
-							</ul>
-                            <ul class="unstyled ttTop callme span6">
-                                <li><a href="skype:Pellenetdesign?call" title="Call Me!">06.72.68.75.31</a></li>
-                                <li><a href="skype:Pellenetdesign?call" title="Skype Me!">Skype Me!</a></li>
-                                <li><a href="http://www.google.com/hangouts" title="Live chat via Google Talk">Chat LIVE!</a></li>
-                            </ul>
-						</div>
-                        </nav><!--end nav span3-->
-                        <nav class="span6">
-                            <div class="footerTitlesub"><!--<span class="icon-bullhorn"></span> Holler!--></div>
-                            <div id="socialMeWrap">
-                                <ul class="unstyled icons row-fluid socialme">
-                                    <li class="span4"><a href="https://plus.google.com/u/0/116184257452506507653/posts?tab=XX">&#xf0d4;</a></li>
-                                    <li class="span4"><a href="http://www.linkedin.com/pub/jarl-helin/28/693/954/">&#xf08c;</a></li>
-                                    <li class="span4"><a href="https://twitter.com/pellenetDesign">&#xf081;</a></li>
-                                </ul>
-                                <ul class="unstyled icons row-fluid socialme">
-                                    <li class="span4"><a href="facetime://jarl@pellenetdesign.com">&#xf03d;</a></li>
-                                    <li class="span4"><a href="http://www.flickr.com/photos/pellenet">&#xf111;&#xf111;</a></li>
-                                    <li class="span4"><a href="http://pinterest.com/pellehelin/" title="Pin Me">&#xf0d3;</a></li>
-                                </ul>
-                            </div><!--socialMeWrap-->
-                        </nav><!--end nav span3-->
-                    </div><!--end row fluid-->
+                                <div class="row-fluid">
+                                        <nav class="span8">
+                                            <div class="footerTitlesub"> <!--<span class="icon-phone"></span> Call me--></div>
+                                                <div class="row-fluid">
+                                                    <ul class="unstyled ttTop callme span6">                        	
+                                                        <li>
+                                                            <a href="#" title="Scan Me!"><img title="Scan me!" src="img/icons/qr_meCard.png" alt="Qr code"></a>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="unstyled ttTop callme span6">
+                                                        <li><a href="skype:Pellenetdesign?call" title="Call Me!">06.72.68.75.31</a></li>
+                                                        <li><a href="skype:Pellenetdesign?call" title="Skype Me!">Skype Me!</a></li>
+                                                        <li><a href="http://www.google.com/hangouts" title="Live chat via Google Talk">Chat LIVE!</a></li>
+                                                    </ul>
+                                                </div>
+                                        </nav><!--end nav span8-->
+                                        <nav class="span4">
+                                            <div class="footerTitlesub"><!--<span class="icon-bullhorn"></span> Holler!--></div>
+                                            <div id="socialMeWrap clearfix">
+                                                <ul class="unstyled icons row-fluid socialme first">
+                                                    <li class="span4"><a href="https://plus.google.com/u/0/116184257452506507653/posts?tab=XX">&#xf0d4;</a></li>
+                                                    <li class="span4"><a href="http://www.linkedin.com/pub/jarl-helin/28/693/954/">&#xf08c;</a></li>
+                                                    <li class="span4"><a href="https://twitter.com/pellenetDesign">&#xf081;</a></li>
+                                                </ul>
+                                                <ul class="unstyled icons row-fluid socialme">
+                                                    <li class="span4"><a href="facetime://jarl@pellenetdesign.com">&#xf03d;</a></li>
+                                                    <li class="span4"><a href="http://www.flickr.com/photos/pellenet">&#xf111;&#xf111;</a></li>
+                                                    <li class="span4"><a href="http://pinterest.com/pellehelin/" title="Pin Me">&#xf0d3;</a></li>
+                                                </ul>
+                                            </div><!--socialMeWrap-->
+                                        </nav><!--end nav span4-->
+                                </div><!--end row fluid-->
                     <div class="pinterest clearfix row-fluid visible-desktop">
                         <div class="span12">
                             <span style="width:90%;margin:0 5%;overflow:hidden;">
-                            <a data-pin-do="embedUser" href="http://pinterest.com/pellehelin/" data-pin-scale-width="80" data-pin-scale-height="150"></a>
+                                <a data-pin-do="embedUser" href="http://pinterest.com/pellehelin/" data-pin-scale-width="80" data-pin-scale-height="150"></a>
                             </span>
                         </div>
                     </div>
